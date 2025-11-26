@@ -1,0 +1,22 @@
+# -----------------------
+# Resume Assistant Config
+# -----------------------
+
+llm:
+  provider: "openai" # or "gemini", "claude", etc.
+  model_name: "gpt-4.1" # update based on your LLM
+  temperature: 0.2
+
+retrieval:
+  alpha: 0.6
+  top_k: 10
+
+pipeline:
+  prompt_path: "flkhdlkhdlkh"
+
+session:
+  qa_session_id: "resume_qa"
+
+paths:
+  resume_prompt_file: "prompts/resume_prompt.txt"
+  log_dir: "logs/"
