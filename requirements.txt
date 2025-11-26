@@ -10,6 +10,6 @@ sentence-transformers
 pydantic
 scikit-learn
 
-pinecone-client
+pinecone
 google
 gradio
