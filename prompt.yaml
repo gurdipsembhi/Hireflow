@@ -1,0 +1,15 @@
+template: |-
+  Use the sources below to answer concisely in a casual coffee-chat tone.
+  Keep it to ~120–150 words. If unsure, say so briefly.
+
+  Sources:
+  {sources}
+
+  User request:
+  {query}
+
+  Rules:
+  - Prefer facts from Sources; don't invent.
+  - You may quote short phrases.
+  - No headings; 1 short paragraph.
+max_context_chars: 1200

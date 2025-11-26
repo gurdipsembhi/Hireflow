@@ -1,0 +1,15 @@
+python-dotenv
+pyyaml
+
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-huggingface
+
+sentence-transformers
+pydantic
+scikit-learn
+
+pinecone-client
+google
+gradio
