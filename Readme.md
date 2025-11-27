@@ -1,4 +1,4 @@
-![HireFlow-AI Demo](demo.gif)
+![HireFlow-AI Demo](gif.gif)
 
 **AI-powered recruitment platform** that semantically matches candidates to job descriptions using Gemini embeddings and FAISS vector search. Delivers recruiter-friendly insights through LLM evaluations and interactive Streamlit dashboard.[web:11][web:22]
 
