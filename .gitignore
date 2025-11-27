@@ -5,10 +5,10 @@ __pycache__/
 *.pyd
 
 # Environment
-.env
-venv/
-.env/
-.venv/
+# .env
+# venv/
+# .env/
+# .venv/
 
 # Mac system files
 .DS_Store
