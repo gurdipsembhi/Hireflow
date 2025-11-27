@@ -1,9 +1,9 @@
 # Python
+# Ignore Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
 # Environment
 .env
 venv/
