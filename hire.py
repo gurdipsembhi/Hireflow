@@ -195,13 +195,6 @@ def build_shortlist_markdown() -> str:
             lines.append(f"- {filename} — relevance: **{rel:.2f}**")
     return "\n".join(lines)
 
-# Gradio event handler on each user message
-# def gradio_handler(user_message, chat_history):
-#     reply = handle_user_message(user_message)
-#     chat_history = chat_history or []
-#     chat_history.append((user_message, reply))
-#     shortlist_md = build_shortlist_markdown()
-#     return chat_history, shortlist_md
 def gradio_handler(user_message, chat_history):
     reply = handle_user_message(user_message)
     chat_history = chat_history or []
